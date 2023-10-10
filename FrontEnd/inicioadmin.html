@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Página De Inicio Para Administradores</title>
+</head>
+<body>
+    <h1>Bienvenido Admin</h1>
+    <h2>Lista De Usuarios Registrados:</h2>
+    <ul id="userList"></ul>
+    <br>
+    <h2>Registrar Nuevo Usuario:</h2>
+    <div>
+        <label for="newUser">Nuevo Usuario:</label>
+        <input type="text" id="newUser">
+    </div>
+    <div>
+        <label for="newPassword">Contraseña:</label>
+        <input type="password" id="newPassword">
+    </div>
+    <div>
+        <label for="newRole">Rol:</label>
+        <input type="text" id="newRole">
+    </div>
+    <br>
+    <button onclick="registerNewUser()">Registrar</button>
+    <script src="funciones.js"></script>
+</body>
+</html>

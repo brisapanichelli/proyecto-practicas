@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Registro</title>
+		<link rel="stylesheet" href="estilosinicio.css">
+	<script src="app.js"></script>
+</head>
+<body onload="mostrarEmpresa()">
+	<div class="contenedor">
+				<div id="formRegistro" class="formulario">
+					<h2>Registro de usuario</h2>
+		
+					<fieldset>
+						<legend>Información personal</legend>
+						<label for="nombre">Nombre:</label>
+						<input type="text" id="nombre" name="nombre" required>
+						<label for="apellido">Apellido:</label>
+						<input type="text" id="apellido" name="apellido" required>
+					</fieldset>
+		
+					<fieldset>
+						<legend>Información de rol</legend>
+						<label for="role">Rol:</label>
+						<select id="role" name="rol" required onchange="mostrarEmpresa()">
+							<option value="">Seleccione un rol</option>
+							<option value="cliente">Cliente</option>
+							<option value="vendedor">Vendedor</option>
+							<option value="administrador">Administrador</option>
+						</select>
+		
+						<div id="rolVendedor" style="display: block;">
+							<label for="empresa">Empresa:</label>
+							<input type="text" id="empresa" name="empresa">
+							<p>Si perteneces a alguna empresa, ingrésala aquí.</p>
+						</div>
+					</fieldset>
+		
+					<fieldset>
+						<legend>Información de contacto</legend>
+						<label for="usuario">Usuario:</label>
+						<input type="text" id="usuario" name="usuario" required>
+						<label for="email">Correo electrónico:</label>
+						<input type="email" id="email" name="email" required>
+						<label for="telefono">Teléfono:</label>
+						<input type="tel" id="telefono" name="telefono" required>
+					</fieldset>
+		
+					<fieldset>
+						<legend>Información de contraseña</legend>
+						<label for="newPassword">Contraseña:</label>
+						<input type="password" id="newPassword" name="newPassword" required>
+						<label for="confirmPassword">Confirmar Contraseña:</label>
+						<input type="password" id="confirmPassword" name="confirmPassword" required>
+					</fieldset>
+		
+					<fieldset>
+						<legend>Información de domicilio</legend>
+						<label for="calle">Calle:</label>
+						<input type="text" id="calle" name="calle" required>
+						<label for="altura">Altura:</label>
+						<input type="text" id="altura" name="altura" required>
+						<label for="ciudad">Ciudad:</label>
+						<input type="text" id="ciudad" name="ciudad" required>
+						<label for="provincia">Provincia o Estado:</label>
+						<input type="text" id="provincia" name="provincia" required>
+						<label for="pais">País:</label>
+						<input type="text" id="pais" name="pais" required>
+					</fieldset>
+		
+					<button type="button" id="btnRegistrar" onclick="registerNewUser()">Registrarse</button>
+					<div id="mensajeError"></div>
+				</div>
+		   
+			</div>
+	<!--<script src="jquery-3.6.0.min.js"></script>-->
+</body>
+</html>

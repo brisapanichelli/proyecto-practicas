@@ -1,0 +1,83 @@
+demo Devices for Everyone 2023
+Diapositiva 1:
+¡Bienvenidos a nuestra presentación!
+•
+Nombre de la aplicación: Devices for Everyone.
+•
+Dirigida a estudiantes y compañeros de nuestra universidad.
+Diapositiva 2:
+Problema a resolver:
+david
+•
+Según estimaciones del Banco Mundial de Discapacidad, aproximadamente el 15% de la población mundial, es decir, mil millones de personas, sufren de algún tipo de discapacidad.
+•
+Nuestra aplicación está diseñada para ayudar a las personas con discapacidad a encontrar y comprar dispositivos adaptados a sus necesidades especiales.
+Diapositiva 3:
+Objetivos de la aplicación:
+brisa
+1. Facilitar la búsqueda rápida y eficiente de productos adaptados.
+2. Permitir a los usuarios encontrar productos acordes a su tipo de discapacidad.
+3. Brindar a las empresas una plataforma para publicar sus productos adaptados en una sola tienda.
+Diapositiva 4:
+Metodología ágil:
+david
+•
+Utilizamos la metodología ágil para el desarrollo de nuestra aplicación.
+•
+Dividimos el software en 5 entregas funcionales, con una entrega adicional para garantizar y verificar la accesibilidad.
+Diapositiva 5:
+Distribución de tareas en los sprints:
+brisa
+•
+Mostramos la distribución de tareas para cada sprint.
+•
+Hasta ahora, hemos completado la implementación del registro y el inicio de sesión.
+Diapositiva 6:
+brisa
+Investigación tecnológica:
+•
+Durante el proceso, tuvimos que tomar decisiones tecnológicas clave.
+•
+Consideramos diferentes opciones como Node.js y Spring para el backend, y Spring JDBC y Java JDBC para la conexión con la base de datos.
+•
+Decidimos utilizar Spring y Java JDBC para el backend y MySQL para la base de datos.
+Diapositiva 7:
+Base de datos:
+david
+•
+Mostramos una vista previa de la estructura de nuestra base de datos.
+•
+Utilizamos MySQL como sistema de gestión de base de datos.
+•
+Aunque no está conectada en tiempo real, presentamos una visualización de las tablas y sus columnas.
+Diapositiva 8:
+Próximos pasos y actualizaciones:
+brisa
+•
+Continuaremos con la implementación de los sprints restantes.
+•
+Mostraremos una vista previa de nuestra base de datos.
+•
+Aunque no está conectada en tiempo real, podremos visualizar su estructura y tablas.
+Diapositiva 9:
+Conclusiones:
+•
+Hemos realizado avances significativos en el desarrollo de nuestra aplicación "Devices for Everyone".
+•
+Hemos investigado y tomado decisiones tecnológicas adecuadas para el backend, frontend y la base de datos.
+•
+Nuestro enfoque en la accesibilidad nos permitirá brindar una experiencia inclusiva para todos los usuarios.
+Diapositiva 10:
+Próximas acciones:
+•
+Continuaremos trabajando en los sprints restantes.
+•
+Reforzaremos la conexión entre el backend y la base de datos.
+•
+Implementaremos las funcionalidades restantes, como la gestión de perfil de usuario, búsqueda de productos y compra en línea.
+Diapositiva 11:
+¡Gracias por su atención!
+•
+Estamos emocionados de presentarles nuestra aplicación "Devices for Everyone" y esperamos que sea de gran ayuda para los estudiantes y compañeros de nuestra universidad.
+•
+Estamos abiertos a preguntas y comentarios. ¡No duden en compartir sus opiniones con nosotros!

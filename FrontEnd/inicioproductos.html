@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Productos</title>
+</head>
+
+<body>
+    <h1>Bienvenido a la Página de Gestión de Productos</h1>
+    <button id="crearProductoBtn" onclick="verFormularioProducto()">Crear Producto</button>
+    <button id="verProductosBtn">Ver Lista de Productos</button>
+
+    <div id="crearProductoForm" style="display: none;">
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio" required><br>
+        <label for="modelo">Modelo:</label>
+        <input type="text" id="modelo" required><br>
+        <label for="descripcion">Descripción:</label>
+        <input type="text" id="descripcion" required><br>
+        <label for="marca">Marca:</label>
+        <input type="text" id="marca" required><br>
+        <button id="guardarProductoBtn">Guardar Producto</button>
+    </div>
+
+    <div id="listaProductos" style="display: none;">
+        <!-- La lista de productos se llenará dinámicamente mediante JavaScript -->
+    </div>
+
+    <script src="inicioproductos.js"></script>
+</body>
+
+</html>
